@@ -6,6 +6,9 @@ export default defineConfig({
   title: "VeloChatX",
   description: "A powerful cross server chat plugin for Velocity",
   base: '/VeloChatX-Docs/',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
