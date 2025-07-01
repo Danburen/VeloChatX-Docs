@@ -32,11 +32,6 @@ export default defineConfig({
       lang: 'zh',
       themeConfig: zhThemeConfig
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/'
-    }
   },
   search: {
     provider: 'local'

@@ -1,4 +1,4 @@
-# 权限和指令 {#commands-permissions}
+# 权限和指令
 
 本页面介绍了有关VeloChatX的指令的使用和权限。
 
@@ -9,13 +9,13 @@ VeloChatX支持以下别名：`vcx`,`vc`,`chatx`
 
 ## 玩家指令
 ### 权限路径：`velochatx.player`
-* ### 提及玩家 `/mention <player>`
+* ### 提及玩家 `/mention <player>` {#mention-command}
 对某人显示提及消息。
 
 别名：`men`,`at`
 
 该消息显示的标题可以在[提及标题配置](/guide/config/main#mention-config)和`message.yml`中进行修改配置。
-* ### 私聊 `/vcmsg <player> <message>`
+* ### 私聊 `/vcmsg <player> <message>` {#message-command}
 对某人发送私聊消息，该消息仅玩家之间传递。
 
 别名：`vctell`

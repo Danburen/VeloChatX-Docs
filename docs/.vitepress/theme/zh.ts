@@ -36,11 +36,16 @@ export const zhThemeConfig = {
         ],
         '/reference/':[
             {
-                text: '权限和指令',
-                link: '/reference/cmdsAndPerms'
-            },
-            {
-                text: '占位符',link: '/reference/placeholder'
+                text: '参考',
+                items:[
+                    {
+                        text: '权限和指令',
+                        link: '/reference/cmdsAndPerms'
+                    },
+                    {
+                        text: '占位符',link: '/reference/placeholder'
+                    }
+                ]
             }
         ]
     },

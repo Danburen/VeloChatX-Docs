@@ -31,7 +31,8 @@ server-display:
     # 可以往下继续添加，与velocity中的一一对应
 ```
 其中`proxy`代表的是代理端的消息。
-代理端(Velocity的Console)是可以通过[指令](/guide/command/admin)向玩家发送[提及]()或者[私聊]()消息
+代理端(Velocity的Console)是可以通过[指令](/reference/cmdsAndPerms)向玩家发送
+[提及](/reference/cmdsAndPerms#mention-command)或者[私聊](/reference/cmdsAndPerms#message-command)消息
 > [!WARNING]
 > 请注意，当玩家在下方列表当中发送一个不存在的子服中发送了消息，那么`server`字符会强制转化为`未知`或`UNKNOWN`
 
