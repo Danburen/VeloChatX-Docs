@@ -5,6 +5,7 @@ import {zhThemeConfig} from "./theme/zh";
 export default defineConfig({
   title: "VeloChatX",
   description: "A powerful cross server chat plugin for Velocity",
+  base: '/VeloChatX-Docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

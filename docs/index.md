@@ -15,7 +15,7 @@ hero:
       link: /guide/intro/get-start
     - theme: alt
       text: 在 GitHub 上查看
-      link: /guide/api-examples
+      link: https://github.com/Danburen/VeloChatX
 
 features:
   - icon: 🧰
