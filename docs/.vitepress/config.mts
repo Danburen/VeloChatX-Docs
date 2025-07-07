@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import {zhThemeConfig} from "./theme/zh";
+import {enThemeConfig} from "./theme/en";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -36,6 +37,11 @@ export default defineConfig({
       lang: 'zh',
       themeConfig: zhThemeConfig
     },
+    en: {
+      label: 'english',
+      lang: 'zh',
+      themeConfig: enThemeConfig
+    }
   },
   search: {
     provider: 'local'
