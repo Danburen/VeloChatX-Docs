@@ -50,7 +50,7 @@ export const enThemeConfig = {
         ]
     },
     footer: {
-        copyright: 'Copyright © 2024-2025 Suzhou Congzhihui Intelligent Technology Co., Ltd. China. All Rights Reserved'
+        copyright: 'Copyright © 2026 Danburen. All Rights Reserved'
     },
     lastUpdated: {
         text: 'Last updated',

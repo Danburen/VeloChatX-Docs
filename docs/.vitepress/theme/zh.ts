@@ -50,7 +50,7 @@ export const zhThemeConfig = {
         ]
     },
     footer:{
-        copyright: 'Copyright © 2024-2025 苏州聪智汇智能科技有限公司版权所有'
+        copyright: 'Copyright © 2026 Danburen. All Rights Reserved'
     },
     lastUpdated: {
         text: '最后更新于',
