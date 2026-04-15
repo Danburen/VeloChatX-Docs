@@ -27,6 +27,12 @@ The placeholders correspond to:
 > Placeholders are case-insensitive but lowercase is recommended.
 > Most text supports `Minecraft Chat Code` and will parse `§` and `&` color codes.
 
+> [!NOTE]
+> In `config.yml`, you will find the `chat-format-model` key, which controls how chat text is converted before forwarding.
+> - `none`: No conversion. Sends original text directly (best for vanilla client compatibility).
+> - `legacy`: Converts to Adventure Legacy Component (recommended when Fabric clients show format/display issues).
+> - `mini-message`: Converts to MiniMessage format for richer text effects.
+
 ## Console Output Configuration
 `Velocity` typically doesn't log sub-server chat messages to maintain isolation between `proxy` and `backend` communication channels.
 

@@ -30,6 +30,12 @@ chat-format: "{channel}{Group}{Server}{Prefix}{Player}{Suffix} §8:§r {Message}
 > 占位符对大小写不敏感，但是推荐用小写。
 > 本插件大部分文本是支持`Minecraft Chat Code`的，会对`§`和`&`颜色字符进行转义。
 
+> [!NOTE]
+> 在 `config.yml` 中，你会看到 `chat-format-model` 配置项，用于控制转发前的聊天文本转换方式。
+> - `none`：不做转换，直接发送原始文本（更适合原版客户端兼容）。
+> - `legacy`：转换为 Adventure Legacy Component（当 Fabric 客户端出现格式/显示异常时推荐）。
+> - `mini-message`：转换为 MiniMessage 格式（支持更丰富的文本效果）。
+
 ## 终端输出配置
 `Velocity` 通常不会记录子服的聊天消息，这样子可以很好的隔离`proxy`和`backend`的部分消息，仅通过部分通道进行通信，以防止业务污染。
 
